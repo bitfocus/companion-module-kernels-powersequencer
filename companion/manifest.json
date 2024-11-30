@@ -1,0 +1,26 @@
+{
+	"id": "kernels-power-sequencer",
+	"name": "kernels-power-sequencer",
+	"shortname": "kernels-power-sequencer",
+	"description": "Control KernelS Power Sequencer",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-kernels-power-sequencer.git",
+	"bugs": "https://github.com/bitfocus/companion-module-kernels-power-sequencer/issues",
+	"maintainers": [
+		{
+			"name": "Leon Reucher",
+			"email": "leon.reucher@ultimate-technology.de"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "KernelS",
+	"products": ["PS108 II"],
+	"keywords": []
+}
